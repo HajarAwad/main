@@ -6,21 +6,25 @@
 main {
     margin-left: 20px;
     margin-top: 20px;
+    color: cornsilk;
 }
+
 
 #content_column {
     display: flex;
+    flex-wrap: wrap;
 
 }
 
-#content_row {
-    display: flex;
-
+article {
+    flex: auto;
+    flex-basis: 30%;
 }
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: rgb(156, 205, 252);
+    background-color: rgb(92, 136, 177);
     border-radius: 5px;
     padding: 20px 20px;
     margin-right: 20px;
